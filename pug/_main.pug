@@ -4,6 +4,10 @@ mixin icon(icons)
     img(src="images/"+icons, alt="")
 
 body
+    div.background
+    div#modal.hidden
+        h2 RULES
+        img(src="images/images-rules-bonus.svg", alt="")
     section.score 
         img(src="images/logo-bonus.svg", alt="Rock, paper, scissors, lizard, spock")
         div.score__container 
@@ -23,5 +27,8 @@ body
     section.rules
         .rules__container#rules
             p RULES
+    
+       
 script(src="index.js")
+
         
