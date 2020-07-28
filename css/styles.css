@@ -1,5 +1,6 @@
 body {
-  background: radial-gradient(circle, #1f3756, #141539); }
+  background: radial-gradient(circle, #1f3756, #141539);
+  font-family: 'Barlow Semi Condensed'; }
 
 .score {
   border: 2px solid #606e85;
@@ -8,11 +9,16 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
-  padding: 2em; }
+  padding: 1.5em; }
   .score__container {
-    background: #606e85;
+    background: white;
+    color: #2a46c0;
     border-radius: 10px;
     width: 20%;
     display: flex;
-    justify-content: center;
-    font-family: 'Barlow Semi Condensed'; }
+    justify-content: center; }
+    .score__container #score {
+      color: #3b4363; }
+
+.game .scissor {
+  background: linear-gradient(150deg, #ec9e0e, #eca922); }

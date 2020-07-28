@@ -10,11 +10,16 @@ body
             p SCORE
             p#score
     section.game
-        +icon(icons[0])
-        +icon(icons[1])
-        +icon(icons[2])
-        +icon(icons[3])
-        +icon(icons[4])
+        div.scissor
+            +icon(icons[0])
+        div.paper
+            +icon(icons[1])
+        div.rock
+            +icon(icons[2])
+        div.lizard
+            +icon(icons[3])
+        div.spock
+            +icon(icons[4])
     section.rules
         .rules__container
             p RULES
