@@ -8,6 +8,8 @@ const $modal = document.getElementById('modal')
 const $background = document.getElementById('background')
 const $close = document.getElementById('close')
 
+const number = Math.floor(Math.random()*5)
+
 function modal(){
     $modal.classList.toggle('modal')
     $modal.classList.toggle('hidden')
@@ -17,12 +19,12 @@ function background(){
     $background.classList.toggle('background')
 }
 
-$rules.addEventListener('click', ()=>{
+$rules.addEventListener('click', () => {
     modal()
     background()
 
 })
-$close.addEventListener('click', ()=>{
+$close.addEventListener('click', () => {
     modal()
     background()
 })
