@@ -11,7 +11,7 @@ body {
   justify-content: space-between;
   padding: 1.5em; }
   .score__container {
-    background: white;
+    background: #fff;
     color: #2a46c0;
     border-radius: 10px;
     width: 20%;
@@ -20,5 +20,30 @@ body {
     .score__container #score {
       color: #3b4363; }
 
-.game .scissor {
-  background: linear-gradient(150deg, #ec9e0e, #eca922); }
+.game {
+  background-image: url("../images/bg-pentagon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+  .game .container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute; }
+    .game .container img {
+      width: 50px;
+      object-fit: scale-down; }
+  .game .scissor {
+    border: 1em solid #ec9e0e; }
+  .game .paper {
+    border: 1em solid #4865f4; }
+  .game .rock {
+    border: 1em solid #dc2e4e; }
+  .game .lizard {
+    border: 1em solid #834fe3; }
+  .game .spock {
+    border: 1em solid #40b9ce; }
