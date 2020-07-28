@@ -1,0 +1,24 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "frontend mentor challenge",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass styles.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerlaSC/rock-paper-scissors.git"
+  },
+  "author": "Perla SC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerlaSC/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/PerlaSC/rock-paper-scissors#readme"
+}
