@@ -1,0 +1,20 @@
+-var icons = ['icon-scissors.svg', 'icon-paper.svg', 'icon-rock.svg', 'icon-lizard.svg', 'icon-spock.svg']
+
+mixin icon(icons)
+    img(src="images/"+icons, alt="")
+
+body
+    section.score 
+        img(src="images/logo-bonus.svg", alt="Rock, paper, scissors, lizard, spock")
+        div.score__container 
+            p SCORE
+            p#score
+    section.game
+        +icon(icons[0])
+        +icon(icons[1])
+        +icon(icons[2])
+        +icon(icons[3])
+        +icon(icons[4])
+
+
+        
