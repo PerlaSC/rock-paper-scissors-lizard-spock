@@ -61,7 +61,16 @@ body {
     bottom: -13%;
     left: 37%; }
 
-.rules__container {
-  border: 1px solid #fff;
-  border-radius: 10px;
-  color: #fff; }
+.rules {
+  display: flex;
+  justify-content: end; }
+  .rules__container {
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 7em; }
+    .rules__container p {
+      font-weight: 600;
+      margin: 10px; }
