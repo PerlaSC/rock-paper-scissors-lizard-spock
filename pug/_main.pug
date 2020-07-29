@@ -1,7 +1,8 @@
 -var icons = ['icon-scissors.svg', 'icon-paper.svg', 'icon-rock.svg', 'icon-lizard.svg', 'icon-spock.svg']
+-var alt = ['scissors', 'paper', 'rock', 'lizard', 'spock']
 
-mixin icon(icons)
-    img(src="images/"+icons, alt="")
+mixin icon(icons, alt)
+    img(src="images/"+icons, alt=""+alt)
 
 body
     div#background.hidden
@@ -14,17 +15,26 @@ body
         div.score__container 
             p SCORE
             p#score
-    section.game
+    section.game#game
         article.scissor.container#scissor
-            +icon(icons[0])
+            +icon(icons[0], alt[0])
         article.paper.container#paper
-            +icon(icons[1])
+            +icon(icons[1], alt[1])
         article.rock.container#rock
-            +icon(icons[2])
+            +icon(icons[2], alt[2])
         article.lizard.container#lizard
-            +icon(icons[3])
+            +icon(icons[3], alt[3])
         article.spock.container#spock
-            +icon(icons[4])
+            +icon(icons[4], alt[4])
+
+    section.hidden#play
+        article#gamerPick
+            h3 You Picked 
+        article
+            h1#resolve 
+            button#button PLAY AGAIN
+        article#housePick
+            h3 The House Picked 
     section.rules
         .rules__container#rules
             p RULES

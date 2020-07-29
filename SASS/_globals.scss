@@ -12,9 +12,11 @@ $HeaderOutline: hsl(217, 16%, 45%);
 
 $clear: #fff;
 
+$font: 'Barlow Semi Condensed';
+
 body{
     background: $RadialGradient;   
-    font-family: 'Barlow Semi Condensed';
+    font-family: $font;
 }
 
 .background{

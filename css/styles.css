@@ -1,6 +1,6 @@
 body {
   background: radial-gradient(circle, #1f3756, #141539);
-  font-family: 'Barlow Semi Condensed'; }
+  font-family: "Barlow Semi Condensed"; }
 
 .background {
   position: absolute;
@@ -58,18 +58,6 @@ body {
   height: 55vh;
   margin-top: 50px;
   margin-bottom: 20px; }
-  .game .container {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    position: absolute; }
-    .game .container img {
-      width: 50px;
-      object-fit: scale-down; }
   .game .scissor {
     border: 1em solid #ec9e0e;
     right: 45%;
@@ -91,6 +79,19 @@ body {
     bottom: -13%;
     left: 37%; }
 
+.container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute; }
+  .container img {
+    width: 50px;
+    object-fit: scale-down; }
+
 .rules {
   display: flex;
   justify-content: end; }
@@ -104,3 +105,26 @@ body {
     .rules__container p {
       font-weight: 600;
       margin: 10px; }
+
+.play {
+  height: 55vh;
+  margin: 3em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  .play h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center; }
+  .play h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center; }
+  .play button {
+    font-family: "Barlow Semi Condensed";
+    height: 2em;
+    margin: 1em auto; }
+  .play .container {
+    margin: auto;
+    position: inherit; }

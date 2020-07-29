@@ -29,21 +29,7 @@
     margin-top: 50px;
     margin-bottom: 20px;
     
-    .container{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background: $clear;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        position: absolute;
-        
-        img{
-            width: 50px;
-            object-fit: scale-down;
-        }
-    }
+    
     .scissor{
         border: 1em solid $Scissorscolor;
         right: 45%;
@@ -72,6 +58,22 @@
         left: 37%;
     }
 }
+.container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: $clear;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    
+    img{
+        width: 50px;
+        object-fit: scale-down;
+    }
+}
+
 .rules{
     display: flex;
     justify-content: end;
@@ -87,4 +89,32 @@
         margin: 10px;
         }
     }
+}
+.play{
+    height: 55vh;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    h3{
+        color: $clear;
+        font-weight: 600;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h1{
+        color: $clear;
+        font-weight: 700;
+        font-size: 2em;
+        text-align: center;
+    }
+    button{
+        font-family: $font;
+        height: 2em;
+        margin: 1em auto;
+    }
+    .container{
+        margin: auto;
+        position: inherit;
+    }
+
 }
