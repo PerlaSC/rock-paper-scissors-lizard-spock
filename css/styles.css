@@ -58,26 +58,31 @@ body {
   height: 55vh;
   margin-top: 50px;
   margin-bottom: 20px; }
-  .game .scissor {
-    border: 1em solid #ec9e0e;
-    right: 45%;
-    top: -10%; }
-  .game .paper {
-    border: 1em solid #4865f4;
-    right: 30%;
-    top: 20%; }
-  .game .rock {
-    border: 1em solid #dc2e4e;
-    right: 37%;
-    bottom: -13%; }
-  .game .spock {
-    border: 1em solid #40b9ce;
-    top: 20%;
-    left: 30%; }
-  .game .lizard {
-    border: 1em solid #834fe3;
-    bottom: -13%;
-    left: 37%; }
+
+.scissor {
+  border: 1em solid #ec9e0e;
+  right: 45%;
+  top: -10%; }
+
+.paper {
+  border: 1em solid #4865f4;
+  right: 30%;
+  top: 20%; }
+
+.rock {
+  border: 1em solid #dc2e4e;
+  right: 37%;
+  bottom: -13%; }
+
+.spock {
+  border: 1em solid #40b9ce;
+  top: 20%;
+  left: 30%; }
+
+.lizard {
+  border: 1em solid #834fe3;
+  bottom: -13%;
+  left: 37%; }
 
 .container {
   width: 100px;

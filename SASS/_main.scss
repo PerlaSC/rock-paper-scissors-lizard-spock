@@ -28,35 +28,34 @@
     height: 55vh;
     margin-top: 50px;
     margin-bottom: 20px;
-    
-    
-    .scissor{
-        border: 1em solid $Scissorscolor;
-        right: 45%;
-        top: -10%;
-        
-    }
-    .paper{
-        border: 1em solid $Papercolor;
-        right: 30%;
-        top: 20%;
+}
 
-    }
-    .rock{
-        border: 1em solid $Rockcolor;
-        right: 37%;
-        bottom: -13%;
-    }
-    .spock{
-        border: 1em solid $Cyan;
-        top: 20%;
-        left: 30%;
-    }
-    .lizard{
-        border: 1em solid $Lizardcolor;
-        bottom: -13%;
-        left: 37%;
-    }
+.scissor{
+    border: 1em solid $Scissorscolor;
+    right: 45%;
+    top: -10%;
+    
+}
+.paper{
+    border: 1em solid $Papercolor;
+    right: 30%;
+    top: 20%;
+
+}
+.rock{
+    border: 1em solid $Rockcolor;
+    right: 37%;
+    bottom: -13%;
+}
+.spock{
+    border: 1em solid $Cyan;
+    top: 20%;
+    left: 30%;
+}
+.lizard{
+    border: 1em solid $Lizardcolor;
+    bottom: -13%;
+    left: 37%;
 }
 .container{
     width: 100px;
