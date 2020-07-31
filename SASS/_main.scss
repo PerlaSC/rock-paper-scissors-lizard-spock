@@ -1,7 +1,7 @@
 .score{
     border: 2px solid $HeaderOutline;
     width: 55%;
-    margin: auto;
+    margin: 2em auto 0;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -100,7 +100,7 @@
     }
 }
 .play{
-    height: 45vh;
+    height: 50vh;
     max-width: 900px;
     margin: 3em auto;
     display: grid;
@@ -137,7 +137,7 @@
         align-items: flex-end;
     }
     .container{
-        margin: 2em auto;
+        margin: 3.3em auto;
         position: inherit;
         width: 120px;
         height: 120px;

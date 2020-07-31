@@ -18,6 +18,10 @@ body{
     background: $RadialGradient;   
     font-family: $font;
     text-transform: uppercase;
+    margin: 0;
+}
+.overflow{
+    overflow: hidden;
 }
 
 .background{

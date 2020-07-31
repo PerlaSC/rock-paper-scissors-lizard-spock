@@ -14,6 +14,7 @@ const $resolve = document.getElementById('resolve')
 const $gamerPick = document.getElementById('gamerPick')
 const $housePick = document.getElementById('housePick')
 const $score = document.getElementById('score')
+const $body = document.getElementById('body')
 
 var img = ['icon-scissors.svg', 'icon-paper.svg', 'icon-rock.svg', 'icon-lizard.svg', 'icon-spock.svg']
 var title = [' You Win', 'You Lose', 'Draw']
@@ -29,6 +30,7 @@ function finalScore(){
 function modal(){
     $modal.classList.toggle('modal')
     $modal.classList.toggle('hidden')
+    $body.classList.toggle('overflow')
 }
 function background(){
     $background.classList.toggle('hidden')

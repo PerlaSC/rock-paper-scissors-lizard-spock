@@ -1,7 +1,11 @@
 body {
   background: radial-gradient(circle, #1f3756, #141539);
   font-family: "Barlow Semi Condensed";
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
+
+.overflow {
+  overflow: hidden; }
 
 .background {
   position: absolute;
@@ -36,7 +40,7 @@ body {
 .score {
   border: 2px solid #606e85;
   width: 55%;
-  margin: auto;
+  margin: 2em auto 0;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -122,7 +126,7 @@ body {
       margin: 10px; }
 
 .play {
-  height: 45vh;
+  height: 50vh;
   max-width: 900px;
   margin: 3em auto;
   display: grid;
@@ -154,10 +158,51 @@ body {
     justify-content: center;
     align-items: flex-end; }
   .play .container {
-    margin: 2em auto;
+    margin: 3.3em auto;
     position: inherit;
     width: 120px;
     height: 120px;
     border-width: 22px; }
   .play .button__countainer {
     display: grid; }
+
+@media (max-width: 1024px) {
+  .scissor {
+    right: 43%;
+    top: -15%; }
+  .paper {
+    right: 25%;
+    top: 23%; }
+  .rock {
+    right: 34%;
+    bottom: -13%; }
+  .lizard {
+    bottom: -13%;
+    left: 34%; }
+  .spock {
+    top: 23%;
+    left: 25%; } }
+
+@media (max-width: 768px) {
+  .game {
+    margin-top: 70px; }
+  .scissor {
+    right: 40%;
+    top: -18%; }
+  .paper {
+    right: 20%;
+    top: 20%; }
+  .rock {
+    right: 26%;
+    bottom: -13%; }
+  .lizard {
+    bottom: -10%;
+    left: 26%; }
+  .spock {
+    top: 20%;
+    left: 20%; }
+  .background {
+    top: 0;
+    left: 0;
+    right: 25%;
+    top: 22%; } }
