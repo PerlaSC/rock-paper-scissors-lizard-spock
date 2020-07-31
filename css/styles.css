@@ -212,11 +212,15 @@ body {
 
 @media (max-width: 425px) {
   .score {
-    width: 70%; }
+    max-width: 300px;
+    margin: 5em auto;
+    background-size: contain; }
     .score img {
       width: 80px; }
     .score__container {
       width: 30%; }
+    .score__title {
+      font-size: 0.8em; }
   .play {
     max-width: 600px; }
   .game {
