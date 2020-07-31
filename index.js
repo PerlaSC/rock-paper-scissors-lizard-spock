@@ -35,6 +35,10 @@ function background(){
     $background.classList.toggle('background')
 }
 
+function GamerPicked(gamer, img){
+    return $gamerPick.innerHTML = `<article class="container ${gamer}"><img src="images/${img}"></article>`
+}
+
 function play(){
     $play.classList.toggle('play')
     $play.classList.toggle('hidden')
@@ -218,6 +222,4 @@ $button.addEventListener('click', () => {
 })
 
 
-function GamerPicked(gamer, img){
-    return $gamerPick.innerHTML = `<article class="container ${gamer}"><img src="images/${img}"></article>`
-}
+

@@ -11,13 +11,22 @@
         color: $ScoreText;
         border-radius: 10px;
         width: 20%;
-        display: flex;
+        display: grid;
         justify-content: center;
-        
+        .score__title{
+            display: flex;
+            align-items: center;
+        }
+        p{
+            margin: 2px;
+        }
         #score{
             color: $DarkText;
-        }
+            margin: 0 auto;
+            font-size: 3em;
+            font-weight: 700;
 
+        }
     }
 }
 .game{
@@ -75,7 +84,7 @@
 
 .rules{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     &__container{
         cursor: pointer;
         border: 1px solid $clear;
@@ -83,6 +92,7 @@
         color: $clear;
         text-align: center;
         width: 7em;
+        margin: 10px 20px;
         p{
         font-weight: 600; 
         margin: 10px;
@@ -90,14 +100,15 @@
     }
 }
 .play{
-    height: 55vh;
+    height: 45vh;
+    max-width: 900px;
     margin: 3em auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     h3{
         color: $clear;
         font-weight: 600;
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
     }
     h1{
@@ -106,14 +117,34 @@
         font-size: 2em;
         text-align: center;
     }
+    .button{
+        display: flex;
+        align-items: flex-start;
+    }
     button{
         font-family: $font;
-        height: 2em;
-        margin: 1em auto;
+        border-radius: 5px;
+        height: 2.5em;
+        width: 10em;
+        margin: 0px auto;
+        background-color: $clear;
+        border: none;
+        cursor: pointer;
+    }
+    #resolve{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .container{
-        margin: auto;
+        margin: 2em auto;
         position: inherit;
-    }
+        width: 120px;
+        height: 120px;
+        border-width: 22px;
 
+    }
+    .button__countainer{
+        display: grid;
+    }
 }

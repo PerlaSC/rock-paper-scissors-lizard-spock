@@ -13,8 +13,9 @@ body
     section.score 
         img(src="images/logo-bonus.svg", alt="Rock, paper, scissors, lizard, spock")
         div.score__container 
-            p SCORE
-            p#score
+            div.score__title
+                p SCORE
+            div#score
     section.game#game
         article.scissor.container#scissor
             +icon(icons[0], alt[0])
@@ -31,9 +32,10 @@ body
         div
             h3 You Picked 
             article#gamerPick
-        article
+        article.button__countainer
             div#resolve 
-            button#button PLAY AGAIN
+            div.button
+                button#button PLAY AGAIN
         div
             h3 The House Picked 
             article#housePick
