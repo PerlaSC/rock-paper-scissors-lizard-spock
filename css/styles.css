@@ -184,6 +184,8 @@ body {
     left: 25%; } }
 
 @media (max-width: 768px) {
+  .play {
+    max-width: 600px; }
   .game {
     margin-top: 70px; }
   .scissor {
@@ -203,9 +205,46 @@ body {
     left: 20%; }
   .background {
     top: 0;
-    left: 0;
+    left: 0; }
+  .modal {
     right: 25%;
-    top: 22%; }
+    top: 20%; } }
+
+@media (max-width: 425px) {
+  .score {
+    width: 70%; }
+    .score img {
+      width: 80px; }
+    .score__container {
+      width: 30%; }
+  .play {
+    max-width: 600px; }
+  .game {
+    max-width: 350px;
+    margin: 5em auto; }
+  .container {
+    width: 80px;
+    height: 80px; }
+    .container img {
+      width: 40px; }
+  .scissor {
+    right: 40%;
+    top: -18%; }
+  .paper {
+    right: 20%;
+    top: 20%; }
+  .rock {
+    right: 26%;
+    bottom: -13%; }
+  .lizard {
+    bottom: -10%;
+    left: 26%; }
+  .spock {
+    top: 20%;
+    left: 20%; }
+  .background {
+    top: 0;
+    left: 0; }
   .modal {
     right: 25%;
     top: 20%; } }
