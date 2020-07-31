@@ -212,9 +212,7 @@ body {
 
 @media (max-width: 425px) {
   .score {
-    max-width: 300px;
-    margin: 5em auto;
-    background-size: contain; }
+    width: 70%; }
     .score img {
       width: 80px; }
     .score__container {
@@ -224,8 +222,9 @@ body {
   .play {
     max-width: 600px; }
   .game {
-    max-width: 350px;
-    margin: 5em auto; }
+    max-width: 300px;
+    margin: 5em auto;
+    background-size: contain; }
   .container {
     width: 80px;
     height: 80px; }
